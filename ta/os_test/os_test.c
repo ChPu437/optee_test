@@ -4,7 +4,9 @@
  * All rights reserved.
  * Copyright (c) 2022, Linaro Limited.
  */
+#ifdef CFG_TA_SANITIZE_KADDRESS
 #include <asan_test.h>
+#endif
 #include <compiler.h>
 #include <dlfcn.h>
 #include <link.h>
